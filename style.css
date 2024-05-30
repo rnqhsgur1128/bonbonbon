@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding: 30px 0 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20%;
+  position: fixed;
+  position: relative;
+  border-bottom: 1px solid gray;
+}
+
+.header-input-mother {
+  border: 1px solid #4c9a67;
+  height: 40px;
+  padding: 7px 55px 8px 16px;
+}
+.header-input {
+  border: none;
+}
+.logo {
+  text-align: center;
+  width: 200px;
+}
+
+.header-input {
+  position: relative;
+}
+.input-glass {
+  padding: 4px;
+  color: white;
+  background-color: #4c9a67;
+  border: none;
+  font-size: 15px;
+  top: 54px;
+  left: 210px;
+  position: absolute;
+}
+.header-up {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.header-down {
+  padding-top: 20px;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  position: absolute;
+  width: 25%;
+  top: 70px;
+  right: 0px;
+}
+
+.header-down img {
+  width: 30px;
+}
+
+.brand,
+.banchan,
+.cart {
+  width: 50%;
+  gap: 15px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  padding: 30px 0 0 30px;
+  gap: 130px;
+  width: 100%;
+}
+
+.nav-name {
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.header-nav-menu {
+  width: 33%;
+  float: left;
+}
+
+.hader-nav-menu-zip {
+  padding-top: 20px;
+}
+
+.hader-nav-menu-list {
+  font-size: 16px;
+  float: left;
+  width: 50%;
+  display: block;
+  padding: 10px 0;
+}
+
+.mid-img {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mid-img-1 {
+  padding-bottom: 50px;
+}
+
+.mid-img-2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.mid-img-2 img {
+  width: 100%;
+}
