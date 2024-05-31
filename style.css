@@ -31,6 +31,7 @@
   border: 1px solid #4c9a67;
   height: 40px;
   padding: 7px 55px 8px 16px;
+  position: relative;
 }
 .header-input {
   border: none;
@@ -49,8 +50,8 @@
   background-color: #4c9a67;
   border: none;
   font-size: 15px;
-  top: 54px;
-  left: 210px;
+  top: 0;
+  right: 0;
   position: absolute;
 }
 .header-up {
@@ -129,9 +130,134 @@
 .mid-img-2 {
   margin: 0;
   padding: 0;
-  width: 100%;
+  padding-bottom: 50px;
 }
 
 .mid-img-2 img {
+  height: 100%;
   width: 100%;
+}
+
+.main {
+  height: 100vh;
+}
+
+.main1 {
+  height: 35%;
+}
+
+.main1-mid {
+  gap: 115px;
+  display: flex;
+  position: relative;
+}
+
+.main1-title {
+  display: flex;
+  height: 33%;
+  margin-bottom: 60px;
+}
+.main1-name {
+  display: flex;
+  align-items: center;
+  gap: 1000px;
+}
+
+.main1-name-title {
+  display: flex;
+  justify-content: center;
+  font-size: 55px;
+}
+
+.main1-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.main1-name-arrow {
+  padding-left: 15px;
+}
+
+.main1-mid-arrow-left {
+  position: absolute;
+  left: -60px;
+  top: 130px;
+}
+
+.main1-mid-arrow-right {
+  position: absolute;
+  right: -60px;
+  top: 130px;
+}
+
+.main1-name-arrow,
+.main1-side {
+  font-size: 30px;
+}
+
+.main-img-scr {
+  margin-bottom: 15px;
+  width: 280px;
+  height: 280px;
+}
+
+.main-img {
+  position: relative;
+}
+
+.main-cart {
+  background-color: #737270;
+  width: 36px;
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  z-index: 2;
+}
+
+.main1-mid-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-gap {
+  padding-bottom: 15px;
+}
+
+.main-tag,
+.main-mid-text {
+  color: gray;
+}
+.new,
+.main-price {
+  color: red;
+}
+
+.main-price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main-title {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.main-down {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 25px;
+}
+
+.main-down-text-img {
+  width: 100%;
+}
+
+.main-down-text {
+  width: 25%;
+}
+.time {
+  width: 50%;
 }
