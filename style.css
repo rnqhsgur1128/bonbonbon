@@ -16,32 +16,50 @@
 }
 
 .header {
-  padding: 30px 0 50px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: sticky;
+  top: 0;
   width: 100%;
-  gap: 20%;
-  position: fixed;
-  position: relative;
-  border-bottom: 1px solid gray;
+  background-color: white;
+  z-index: 999;
+  border-bottom: 1px solid#EAEAEA;
 }
 
-.header-input-mother {
+.header-inner {
+  padding: 50px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header-left {
   border: 1px solid #4c9a67;
   height: 40px;
   padding: 7px 55px 8px 16px;
-  position: relative;
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
 }
+.header-right {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
 .header-input {
   border: none;
 }
 .logo {
+  margin: 0 50px;
   text-align: center;
   width: 200px;
 }
 
 .header-input {
+  border: none;
   position: relative;
 }
 .input-glass {
@@ -61,14 +79,11 @@
 }
 
 .header-down {
+  gap: 15px;
   padding-top: 20px;
   display: flex;
   justify-content: right;
-  gap: 10px;
-  position: absolute;
-  width: 25%;
-  top: 70px;
-  right: 0px;
+  width: 100%;
 }
 
 .header-down img {
@@ -78,12 +93,12 @@
 .brand,
 .banchan,
 .cart {
-  width: 50%;
-  gap: 15px;
+  gap: 5px;
   font-weight: 800;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  font-size: 18px;
 }
 
 .header-nav {
@@ -95,7 +110,7 @@
 
 .nav-name {
   padding-bottom: 20px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .header-nav-menu {
@@ -138,61 +153,63 @@
   width: 100%;
 }
 
-.main {
-  height: 100vh;
+.main-body {
+  display: initial;
 }
 
-.main1 {
+.main {
   height: 35%;
 }
 
-.main1-mid {
+.main-mid {
+  padding: 100px 0;
   gap: 115px;
   display: flex;
   position: relative;
 }
 
-.main1-title {
+.main-title {
   display: flex;
   height: 33%;
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
-.main1-name {
+.main-name {
   display: flex;
   align-items: center;
   gap: 1000px;
 }
 
-.main1-name-title {
+.main-name-title {
   display: flex;
   justify-content: center;
   font-size: 55px;
 }
 
-.main1-side {
+.main-side {
   display: flex;
   justify-content: center;
   align-items: center;
   color: gray;
 }
-.main1-name-arrow {
+
+.main-name-arrow {
   padding-left: 15px;
 }
 
-.main1-mid-arrow-left {
+.main-mid-arrow-left {
   position: absolute;
   left: -60px;
   top: 130px;
 }
 
-.main1-mid-arrow-right {
+.main-mid-arrow-right {
   position: absolute;
   right: -60px;
   top: 130px;
 }
 
-.main1-name-arrow,
-.main1-side {
+.main-name-arrow,
+.main-side {
   font-size: 30px;
 }
 
@@ -215,7 +232,7 @@
   z-index: 2;
 }
 
-.main1-mid-arrow {
+.main-mid-arrow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,8 +264,8 @@
 .main-down {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
   gap: 25px;
+  padding-bottom: 100px;
 }
 
 .main-down-text-img {
@@ -260,4 +277,34 @@
 }
 .time {
   width: 50%;
+}
+
+.main-2,
+.main-2-name {
+  display: block;
+}
+
+.main-side-2 {
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  width: 100%;
+  gap: 20px;
+}
+
+.main-side-text {
+  text-align: center;
+  color: #727272;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  height: 40px;
+  padding: 5px 20px;
+}
+
+.middle-banner img {
+  padding-bottom: 100px;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
 }
